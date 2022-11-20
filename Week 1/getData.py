@@ -9,7 +9,7 @@ idFile.close()
 
 URL = 'https://api.thingspeak.com/channels/1529099/feeds.json?results=2'
 
-# Sending get request and saving the response as response object
+# Sending get request and saving the response as json
 data = requests.get(url = URL).json()
 
 # Save the data received
