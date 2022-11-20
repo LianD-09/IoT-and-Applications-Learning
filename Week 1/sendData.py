@@ -9,13 +9,15 @@ body = {
     'field2': 20194314
     }
 
-# sending get request and saving the response as response
+# Sending get request and saving the response as response
 object
 r = requests.get(url = URL, json = body)
 
+# Display the result 
 print("Request status:", r.status_code)
 print("Body request:", body)
 print("Return:", r.json())
 
+# Save the return data received
 f.write(str(r.json()))
 f.close()
