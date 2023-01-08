@@ -2,7 +2,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const MongoClient = require("mongodb").MongoClient;
 const ObjectId = require("mongodb").ObjectId;
-const URL = "mongodb://localhost/test";
+const URL = "mongodb://localhost";
 const DATABASE_NAME = "person";
 
 
